@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KIC Admin</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    </head>
+    <body>
+
+        <div class="header">
+            <h1>KIC Admin</h1>
+        </div>
+
+        <div class="row">
+           
+            <form  action="add_room.action"  method="get">
+                <table>
+                    <tr>
+                    <tb>Room ID:</tb> 
+                    <tb> <input type="text"  maxlength="2" required name="room_id" ></tb>
+                    </tr>
+                    <br>
+                    <tr>
+                    <tb>Room Capacity</tb>
+                    <tb><input type="number"   value="0" maxlength="50" required name="room_capacity" ></tb>
+                
+                </tr>
+                 <br>   
+                    <tr>
+                    <tb><input type="submit" value="Submit"></tb>
+                    <tb></tb>
+                    </tr>
+
+                </table>
+            </form>
+        </div>
+
+        <div class="footer">
+            <p>KIC Admin has been developed with Web Application Development Course</p>
+        </div>
+
+    </body>
+</html>
